@@ -1,36 +1,36 @@
 window.api = {
   // 登录验证接口
-  loginCheck: 'http://www.eleb.com/user/login',
+  loginCheck: '/user/login',
   // 获取短信验证码接口
-  sms: 'http://www.eleb.com/user/sms',
+  sms: '/user/sms',
   // 注册接口
-  regist: 'http://www.eleb.com/user/regist',
+  regist: '/user/regist',
   // 修改密码接口
-  changePassword: 'http://www.eleb.com/user/changePassword',
+  changePassword: '/user/changePassword',
   // 忘记密码接口
-  forgetPassword: 'http://www.eleb.com/user/forgetPassword',
+  forgetPassword: '/user/forgetPassword',
   // 地址列表接口
-  addressList: 'http://www.eleb.com/addresse/addressList',
+  addressList: '/addresse/addressList',
   // 指定地址接口
-  address: 'http://www.eleb.com/addresse/address',
+  address: 'addresse/address',
   // 保存新增地址接口
-  addAddress: 'http://www.eleb.com/addresse/addAddress',
+  addAddress: '/addresse/addAddress',
   // 保存修改地址接口
-  editAddress: 'http://www.eleb.com/addresse/editAddress',
+  editAddress: '/addresse/editAddress',
   // 获得订单列表接口
-  orderList: 'http://www.eleb.com/order/orderList',
+  orderList: '/order/orderList',
   // 获得指定订单接口
-  order: 'http://www.eleb.com/order/order',
+  order: '/order/order',
   // 获得商家列表接口
-  businessList: 'http://www.eleb.com/shop/list',
+  businessList: '/shop/list',
   // 获得指定商家接口
-  business: 'http://www.eleb.com/shop/menus',
+  business: '/shop/menus',
   // 保存购物车接口
-  addCart: 'http://www.eleb.com/cart/addCart',
+  addCart: '/cart/addCart',
   // 获取购物车数据接口
-  cart: 'http://www.eleb.com/cart/cart',
+  cart: '/cart/cart',
   // 添加订单接口
-  addOrder: 'http://www.eleb.com/order/addorder',
+  addOrder: '/order/addorder',
   // 支付接口
   pay: '/pay.php'
 };
